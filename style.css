@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Martian Mono", monospace;
+  text-align: center;
+}
+
+body {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: auto;
+  background-color: #fef9a7;
+}
+
+.firstBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  background-color: rgb(196, 146, 52);
+  border-radius: 10px;
+  border: none;
+}
+
+input {
+  height: 40px;
+  width: 250px;
+  border: 2px solid rgb(196, 146, 52);
+  border-radius: 10px;
+}
+
+#notesTable,
+td,
+th {
+  border: 2px rgb(196, 146, 52) solid;
+  color: black;
+  border-collapse: collapse;
+  margin: auto;
+  width: 50vw;
+}
+
+td,
+th {
+  width: 0%;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.thirdBox {
+  display: none;
+}
+
+.fourthBox {
+  display: none;
+}
+
+.reset-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#reset {
+  background-color: red;
+  border: none;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    max-width: 90%;
+  }
+}
